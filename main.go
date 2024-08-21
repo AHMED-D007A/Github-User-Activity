@@ -16,7 +16,7 @@ func main() {
 	}
 
 	userName := os.Args[1]
-	url := fmt.Sprintf("https://api.github.com/users/%s/events/public", string(userName))
+	url := fmt.Sprintf("https://api.github.com/users/%s/events", string(userName))
 
 	response, err := http.Get(url)
 	if err != nil {
