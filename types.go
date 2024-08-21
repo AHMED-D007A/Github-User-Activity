@@ -23,7 +23,8 @@ type Repo struct {
 }
 
 type Payload struct {
-	Ref string `json:"ref"`
+	Ref    string `json:"ref"`
+	Action string `json:"action"`
 	// These are for CreateEvent Type (Repositories, Tags, Branches).
 	Ref_Type      string `json:"ref_type"`
 	Master_Branch string `json:"master_branch"`
