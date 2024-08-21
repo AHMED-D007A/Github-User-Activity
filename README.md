@@ -9,5 +9,7 @@ github-activity <username>
 ```
 
 - Fetching the recent activity of the specified GitHub user using the GitHub API.
+
 ` https://api.github.com/users/<username>/events `
+
 ` Example: https://api.github.com/users/AHMED-D007A/events `
